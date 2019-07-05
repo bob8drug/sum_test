@@ -1,7 +1,10 @@
+#include <cstdio>
 #include "sum.h"
-  
-int sum(int n){
-    int r =0;
-    for(int i=1; i <=n; i++) r += i;
-    return r;
+ 
+
+int main(){
+	int n;
+	scanf("%d",&n);
+	int s =sum(n);
+	printf("sum  = %d\n",s);
 }
